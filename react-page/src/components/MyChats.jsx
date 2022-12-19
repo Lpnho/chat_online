@@ -41,7 +41,7 @@ export default function MyChats({ socket, email, name }) {
         if (currentChat === chat) {
           localStorage.setItem('chats', JSON.stringify(_chats))
           setMessages(chat_messages)
-
+          setCurrentReme(((element.parts.reme_email === email) ? element.parts.dest_name : element.parts.reme_name))
         }
       }
     });
