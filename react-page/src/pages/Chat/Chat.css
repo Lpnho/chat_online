@@ -1,0 +1,14 @@
+.Chat {
+  display: flex;
+  justify-content: flex-start;
+  /* flex-wrap: wrap; */
+  /* background-color: red; */
+  height: 100vh;
+}
+#LogoutButton {
+  width: 4rem;
+  height: 2rem;
+  position: absolute;
+  top: 0%;
+  right: 1rem;
+}

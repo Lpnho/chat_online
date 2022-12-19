@@ -1,0 +1,86 @@
+.ChatsList {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 20rem;
+  border: 2px solid black;
+  height: 90%;
+  overflow-y: auto;
+  /* background-color: rgb(33, 210, 36); */
+  margin-left: 5rem;
+}
+#ChatListTitle{
+  text-align: center;
+}
+.ChatsListItem {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  /* width: 80%; */
+  /* background-color: red; */
+  text-align: left;
+  font-size: 1.6rem;
+  transition: .8s;
+}
+.ChatsListItem:hover {
+  cursor: pointer;
+  opacity: .8;
+  color: rgb(116, 112, 112);
+}
+
+.ComponentChat {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  min-width: 60vh;
+  background-color: rgb(227, 223, 223);
+
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+#currentReme {
+  margin: 0;
+  padding: 0.4rem 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(1, 200, 5);
+  border-radius: 0.5rem;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 1px 1px black;
+}
+.Controls {
+  background-color: rgb(197, 185, 185);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 3.6%;
+  height: 6.4%;
+}
+#TextInput {
+  width: 70%;
+  height: 70%;
+  border: solid black 0.2px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: black;
+}
+#ButtonSendMensage {
+  height: 80%;
+  background-color: white;
+  border: solid black 0.2px;
+  color: black;
+}
+#ButtonCloseChat {
+  height: 80%;
+  width: 8%;
+  background-color: red;
+  color: white;
+  border-color: transparent;
+}

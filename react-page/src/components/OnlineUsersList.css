@@ -1,0 +1,27 @@
+.OnlineUsersList {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  min-width: 20rem;
+  border: 2px solid black;
+  height: 90%;
+  overflow-y: auto;
+  margin-left: 4rem;
+}
+.IUser {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+  height: 2.6rem;
+}
+
+.SendButton {
+  width: 6rem;
+  height: 2rem;
+  font-size: 0.7rem;
+  margin-left: 1rem;
+}

@@ -1,0 +1,38 @@
+#form-env {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+  }
+  #form {
+    margin-top: 3rem;
+    width: 30%;
+    height: 35%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .field {
+    margin-top: 0.5rem;
+    margin-left: 0.8rem;
+    width: 70%;
+  }
+  #submit-button{
+   margin-top: .8rem; 
+   width: 20%;
+   height: 10%;
+   background-color: white;
+   border: none;
+   transition: .8s;
+  }
+  #submit-button:hover{
+    background-color: black;
+    color: white;
+    border:1px white solid;
+  }
